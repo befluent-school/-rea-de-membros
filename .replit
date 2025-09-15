@@ -1,0 +1,16 @@
+# Replit Configuration
+run = "npm start"
+build = "npm run build"
+
+# Environment variables
+[env]
+NODE_ENV = "production"
+
+# Build configuration
+[build]
+command = "npm run build"
+entrypoint = "dist/index.js"
+
+# Deploy configuration
+[deploy]
+run = ["sh", "-c", "npm run build && npm start"]
