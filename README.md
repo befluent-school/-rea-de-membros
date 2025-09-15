@@ -56,7 +56,7 @@ Crie um arquivo `.env` na raiz do projeto:
 
 ```env
 NODE_ENV=production
-JWT_SECRET=sua-chave-secreta-jwt-super-forte-de-pelo-menos-32-caracteres
+JWT_SECRET=ab6a1c81bd69bb00fe0b635fea366a8695892845511c74aeffecc6a161418118d8827db1910b2450115c87cbcac2e26e38aee589acd98d19a6b5f4368603c405
 DATABASE_URL=postgresql://usuario:senha@host:porta/banco
 ```
 
@@ -244,3 +244,4 @@ Para suporte, abra uma issue no GitHub ou entre em contato.
 ---
 
 **Desenvolvido com ❤️ para o ensino de inglês online**
+
